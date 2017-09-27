@@ -29,10 +29,43 @@ def preprocessing ( path ):
     res = pd.get_dummies(data)
     # output transformed file.
 
-    res.to_csv('output.csv')
+    res.to_excel('output.xlsx')
 
     return data
 
+def getMatrixFromXlsx(path):
+    # Load xls sheet with data
+    doc = xlrd.open_workbook(path).sheet_by_index(0)
+
+    # Extract attribute names (1st row, column 4 to 12)
+    attributeNames = doc.row_values(0, 1, 49)
+
+    # Extract class names to python list,
+    # then encode with integers (dict)
+    classLabels = doc.col_values(2, 2, 1470)
+    classNames = sorted(set(classLabels))
+    classDict = dict(zip(classNames, range(5)))
+
+    # Extract vector y, convert to NumPy matrix and transpose
+    y = np.mat([classDict[value] for value in classLabels]).T
+
+    # Preallocate memory, then extract excel data to matrix X
+    X = np.mat(np.empty((1470, 50)))
+    for i, col_id in enumerate(range(2, 51)):
+        X[:, i] = np.mat(doc.col_values(col_id, 1, 1471)).T
+
+    # Compute values of N, M and C.
+    N = len(y)
+    M = len(attributeNames)
+    C = len(classNames)
+
+    print(classLabels)
+    print(classDict)
+    print(X);
+    print(X.shape)
+    print(attributeNames)
+
+# Not used ATM.
 def getMatrixFromCSV(path):
 
     data = pd.DataFrame.from_csv(path,
@@ -45,27 +78,24 @@ def getMatrixFromCSV(path):
                                  infer_datetime_format=False)
 
     attributNames = list(data.columns.values)
-    classLabels = data.loc[:, 'Attrition']
+    classLabels = data.loc[:, 'Attrition':'Attrition']
     classNames = sorted(set(classLabels))
     classDict = dict(zip(classNames, range(2)))
 
-    print(data)
 
-    print(attributNames)
-    print(classDict)
+
 
     # Extract vector y, convert to NumPy matrix and transpose
     y = np.array([classDict[value] for value in classLabels])
 
     # Preallocate memory, then extract excel data to matrix X
-    X = np.mat(np.empty((1470, 50)))
-    for i, col_id in enumerate(range(1, 49)):
-        X[:, i] = np.mat(data.loc[:, 'Age':'MaritalStatus_Single']).T
+    #X = np.mat(np.empty((1470, 50)))
+    #for i, col_id in enumerate(range(1, 49)):
+    #    X[:, i] = np.mat(data.loc[:, 'Age':'MaritalStatus_Single']).T
 
     # Compute values of N, M and C.
     N = len(y)
     M = len(attributNames)
     C = len(classNames)
 
-    print(classNames)
     print(classLabels)
