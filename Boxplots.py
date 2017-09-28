@@ -2,7 +2,7 @@ from DataTransform import *
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import (figure, title, boxplot, xticks, subplot, hist,
-                               xlabel, ylim, yticks, show)
+                               xlabel, ylim, yticks, show, rcParams)
 from scipy.stats import zscore
 import numpy as np
 from scipy.io import loadmat
@@ -19,7 +19,7 @@ P = pd.DataFrame(data=zscore(X,ddof=1),
 #xticks(range(1,M+1), attributeNames, rotation=90)
 
 
-
+#rcParams['xtick.labelsize'] = 18
 plt.figure();
 
 # Sorry for the huge amount of arguments.
@@ -47,17 +47,18 @@ bp = P.boxplot(column=['Age',
 'YearsSinceLastPromotion',
 'YearsWithCurrManager',])
 
+
 plt.xticks(rotation=90)
 plt.title('IBM HR Boxplot (standardized)')
 
 # There could be outliers in : NumCompaniesWorked TrainingTimesLastYear YearsInCurrentRole
 # YearsSinceLastPromotion YearsWithCurrManager
-
+plt.rcParams['axes.labelsize'] = 12
 figure(figsize=(20,15))
 u = np.floor(np.sqrt(M));
 v = np.ceil(float(M)/u)
 for i in range(M-26):
-    subplot(u,v,i+1)
+    subplot(3,v,i+1)
     hist(X[:,i])
     xlabel(attributeNames[i])
     ylim(0, N) # Make the y-axes equal for improved readability
