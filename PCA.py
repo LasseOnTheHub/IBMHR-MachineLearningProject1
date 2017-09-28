@@ -13,13 +13,13 @@ U, S, V = svd(Y, full_matrices=False)
 # Compute variance explained by principal components
 rho = (S * S) / (S * S).sum()
 
-print('With 2 principal components we can veryfy that {0}% is explained'.format(sum(rho[:2 ] *100)))
+print('With 2 principal components we can verify that {0}% is explained'.format(sum(rho[:2 ] *100)))
 # Plot variance explained
 figure()
 plot(range(1, len(rho) + 1), rho, 'o-')
-title('Variance explained by principal components');
-xlabel('Principal component');
-ylabel('Variance explained');
+title('Variance explained by principal components')
+xlabel('Principal component')
+ylabel('Variance explained')
 # show()
 
 Z = Y * V

@@ -6,7 +6,8 @@ import numpy as np
 doc = xlrd.open_workbook(xlsxpath).sheet_by_index(0)
 
 # Extract attribute names (1st row, column 4 to 12)
-attributeNames = doc.row_values(0, 1, 50)
+attributeNames = doc.row_values(0, 1, 51)
+indexNumber = doc.col_values(0,1)
 
 # Extract class names to python list,
 # then encode with integers (dict)
@@ -28,4 +29,3 @@ N = len(y)
 M = len(attributeNames)
 C = len(classNames)
 
-print('Data transformet into matrix')
