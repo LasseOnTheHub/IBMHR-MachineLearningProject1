@@ -1,6 +1,8 @@
 
 from DataTransform import *
 
+from matplotlib.pyplot import figure, plot, title, xlabel, ylabel, show, legend
+from scipy.linalg import svd
 
 # Subtract mean value from data
 Y = X - np.ones((N, 1)) * X.mean(0)
