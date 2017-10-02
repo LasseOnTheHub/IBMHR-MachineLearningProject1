@@ -28,4 +28,3 @@ np.savetxt('testX2.txt', X, delimiter=',')
 N = len(y)
 M = len(attributeNames)
 C = len(classNames)
-

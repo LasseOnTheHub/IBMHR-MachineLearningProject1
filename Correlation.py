@@ -24,5 +24,5 @@ sns.heatmap(R[1:2].T,
             xticklabels=attributeNames[1:2],
             yticklabels=attributeNames)
 plt.yticks(rotation=0)
-plt.xticks(rotation=90)
+plt.xticks(rotation=0)
 show()
