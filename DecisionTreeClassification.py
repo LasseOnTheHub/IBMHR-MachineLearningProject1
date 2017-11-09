@@ -5,18 +5,20 @@ import numpy as np
 from sklearn import tree
 
 #Remove the attrition attribute from the data X
-X = X[:,1:51]
-attributeNames = attributeNames[1:51]
+#X = X[:,1:51]
+#attributeNames = attributeNames[1:51]
 
 
 print(len(attributeNames))
-print(X.shape)
+print(X.shape[0])
+print(X.T.shape)
+print(y)
 
 # Update N and M
 N, M = X.shape
 
 # Fit regression tree classifier, Gini split criterion, no pruning
-dtc = tree.DecisionTreeClassifier(criterion='gini', min_samples_split=2)
+dtc = tree.DecisionTreeClassifier(criterion='gini',max_depth=5)
 dtc = dtc.fit(X,y)
 
 # Export tree graph for visualization purposes:
