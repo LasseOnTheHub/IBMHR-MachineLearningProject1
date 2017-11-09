@@ -14,7 +14,6 @@ y = np.squeeze(np.asarray(y))
 print(y.shape)
 
 
-
 # Tree complexity parameter - constraint on maximum depth
 tc = np.arange(2, 21, 1)
 
@@ -44,7 +43,6 @@ for train_index, test_index in CV:
         misclass_rate_test = sum(np.abs(y_est_test - y_test)) / float(len(y_est_test))
         misclass_rate_train = sum(np.abs(y_est_train - y_train)) / float(len(y_est_train))
         Error_test[i, k], Error_train[i, k] = misclass_rate_test, misclass_rate_train
-        print(Error_test[i, k])
     k += 1
 
 f = figure();

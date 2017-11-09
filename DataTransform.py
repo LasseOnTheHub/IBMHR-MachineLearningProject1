@@ -29,4 +29,3 @@ N = len(y)
 M = len(attributeNames)
 C = len(classNames)
 
-print(attributeNames)

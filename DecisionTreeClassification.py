@@ -5,7 +5,7 @@ import numpy as np
 from sklearn import tree
 
 #Remove the attrition attribute from the data X
-#X = X[:,1:51]
+X = X[:,1:51]
 #attributeNames = attributeNames[1:51]
 
 
