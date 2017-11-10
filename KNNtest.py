@@ -1,35 +1,42 @@
-# Load required packages
-from sklearn import datasets
-from sklearn.model_selection import GridSearchCV, cross_val_score
-from sklearn.preprocessing import StandardScaler
-import numpy as np
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-
-
 from DataTransform import *
 
+import matplotlib.pyplot as plt
 
-# Create a scaler object
-sc = StandardScaler()
+from sklearn.model_selection import KFold, GridSearchCV, cross_val_score
+from sklearn.neighbors import KNeighborsClassifier
 
-# Fit the scaler to the feature data and transform
-X_std = sc.fit_transform(X)
+y = np.squeeze(np.asarray(y))
 
-# Create a list of 10 candidate values for the C parameter
-C_candidates = dict(C=np.logspace(-4, 4, 10))
+loops = 5
+
+k = np.arange(5, 20)
+
+estimator = KNeighborsClassifier(p=1)
+parameter = {'n_neighbors': k}
+
+non_nested_scores = np.zeros(loops)
+nested_scores = np.zeros(loops)
+best_parameters = np.zeros(loops)
+
+for i in range(loops):
+
+    print('Running loop {0}/{1}'.format(i + 1, loops))
+
+    inner_cv = KFold(n_splits=5, shuffle=True, random_state=i)
+    outer_cv = KFold(n_splits=5, shuffle=True, random_state=i)
+
+    clf = GridSearchCV(estimator=estimator, param_grid=parameter, cv=inner_cv)
+    clf.fit(X, y)
+
+    best_parameters[i] = clf.best_params_['n_neighbors']
+    non_nested_scores[i] = clf.best_score_
+
+    nested_score = cross_val_score(clf, X=X, y=y, cv=outer_cv)
+    nested_scores[i] = nested_score.mean()
+    print(clf.best_params_)
 
 
-knclassifier = KNeighborsClassifier(n_neighbors=l,p=1);
-knclassifier.fit(X, y);
-
-# Create a gridsearch object with the support vector classifier and the C value candidates
-#clf = GridSearchCV(estimator=SVC(), param_grid=C_candidates)
-
-# Fit the cross validated grid search on the data
-#clf.fit(X_std, y)
-
-# Show the best value for C
-print(knclassifier.effective_metric_params_)
-
-print(cross_val_score(knclassifier, X_std, y))
+score_difference = non_nested_scores - nested_scores
+print('Average score difference:{0}, std: {1}'.format(score_difference.mean(), score_difference.std()))
+print('Nested score: {0}'.format(nested_scores.mean()))
+print('Non-Nested score: {0}'.format(non_nested_scores.mean()))

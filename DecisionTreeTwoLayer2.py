@@ -6,9 +6,10 @@ X = X[:,1:51]
 y = np.squeeze(np.asarray(y))
 attributeNames = attributeNames[1:51]
 
-loops = 2
+loops = 5
 dtc = tree.DecisionTreeClassifier(criterion='gini')
 params = {'max_depth':range(1,6), 'min_samples_split':range(40,130)}
+#params = {'max_depth':range(1,6)}
 
 non_nested_scores = np.zeros(loops)
 nested_scores = np.zeros(loops)
@@ -32,4 +33,5 @@ for i in range(loops):
 score_difference = non_nested_scores - nested_scores
 print('Average score difference:{0}, std: {1}'.format(score_difference.mean(), score_difference.std()))
 print('Nested score: {0}'.format(nested_scores.mean()))
+print('Non-Nested score: {0}'.format(non_nested_scores.mean()))
 

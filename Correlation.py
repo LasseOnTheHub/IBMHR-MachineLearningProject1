@@ -17,12 +17,12 @@ from pylab import pcolor, show, colorbar, xticks, yticks
 Y = X - np.ones((N, 1)) * X.std(0)
 R = corrcoef(Y.T)
 
-sns.heatmap(R[1:2].T,
+sns.heatmap(R[1:51].T,
             annot=True,
             annot_kws={"size":8},
             fmt='.2g',
-            xticklabels=attributeNames[1:2],
+            xticklabels=attributeNames[1:51],
             yticklabels=attributeNames)
 plt.yticks(rotation=0)
-plt.xticks(rotation=0)
+plt.xticks(rotation=90)
 show()
