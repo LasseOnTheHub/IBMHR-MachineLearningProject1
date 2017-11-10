@@ -12,6 +12,9 @@ from DataTransform import *
 # Maximum number of neighbors
 L = 40
 
+
+
+
 CV = cross_validation.LeaveOneOut(N)
 errors = np.zeros((N, L))
 i = 0
