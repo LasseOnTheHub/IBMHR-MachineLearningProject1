@@ -2,8 +2,9 @@ from DataTransform2 import *
 from matplotlib.pyplot import figure, plot, subplot, title, xlabel, ylabel, show, clim
 from sklearn import *
 import sklearn.linear_model as lm
-from toolbox_02450 import feature_selector_lr, bmplot
+from toolbox_02450 import feature_selector_lr, bmplot, bmplot2
 import numpy as np
+
 
 
 # Crossvalidation
@@ -41,12 +42,13 @@ for train_index, test_index in CV:
 
     # Compute squared error with feature subset selection
     # textout = 'verbose';
-    textout = '';
+    textout = ''
     selected_features, features_record, loss_record = feature_selector_lr(X_train, y_train, internal_cross_validation,
                                                                           display=textout)
 
     Features[selected_features, k] = 1
     # .. alternatively you could use module sklearn.feature_selection
+
     if len(selected_features) is 0:
         print('No features were selected, i.e. the data (X) in the fold cannot describe the outcomes (y).')
     else:
@@ -61,7 +63,7 @@ for train_index, test_index in CV:
         ylabel('Squared error (crossvalidation)')
 
         subplot(1, 3, 3)
-        bmplot(attributeNames, range(1, features_record.shape[1]), -features_record[:, 1:])
+        bmplot2(attributeNames, range(1, features_record.shape[1]), -features_record[:, 1:])
         clim(-1.5, 0)
         xlabel('Iteration')
 
@@ -88,7 +90,7 @@ print('- R^2 test:     {0}'.format((Error_test_nofeatures.sum() - Error_test_fs.
 
 figure(k)
 subplot(1, 3, 2)
-bmplot(attributeNames, range(1, Features.shape[1] + 1), -Features)
+bmplot2(attributeNames, range(1, Features.shape[1] + 1), -Features)
 clim(-1.5, 0)
 xlabel('Crossvalidation fold')
 ylabel('Attribute')
