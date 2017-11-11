@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8308be-822e-4275-b6a3-64ded748ccad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ANNReg.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.xlsx" afterPath="$PROJECT_DIR$/output.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IBMHR-MachineLearningProject1.iml" afterPath="$PROJECT_DIR$/.idea/IBMHR-MachineLearningProject1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinearRegression.py" afterPath="$PROJECT_DIR$/LinearRegression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ANNReg.py" afterPath="$PROJECT_DIR$/ANNReg.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +25,8 @@
           <file leaf-file-name="LinearRegression.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LinearRegression.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="81" column="54" lean-forward="false" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+                <state relative-caret-position="495">
+                  <caret line="78" column="55" lean-forward="false" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
                   </folding>
@@ -36,9 +37,11 @@
           <file leaf-file-name="ANNReg.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ANNReg.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-                  <folding />
+                <state relative-caret-position="165">
+                  <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -83,44 +86,38 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DataTransform.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/DataTransform.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="DataTransform2.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/DataTransform2.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ex8_2_2.py" pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex8_2_2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+                <state relative-caret-position="469">
+                  <caret line="52" column="10" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="52" selection-end-column="10" />
                   <folding>
-                    <element signature="e#18#210#0" expanded="true" />
+                    <element signature="e#0#28#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DecisionTreeClassification.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/DecisionTreeClassification.py">
+          <file leaf-file-name="ex8_2_6.py" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex8_2_6.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-                  <folding />
+                <state relative-caret-position="180">
+                  <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#18#87#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ex6_2_1.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex6_2_1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#17#103#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -144,6 +141,7 @@
       <find>X</find>
       <find>feature_sele</find>
       <find>bmplot</find>
+      <find>stats</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,9 +170,10 @@
         <option value="$PROJECT_DIR$/DataTransform.py" />
         <option value="$PROJECT_DIR$/KNNtest.py" />
         <option value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex6_2_1.py" />
-        <option value="$PROJECT_DIR$/DataTransform2.py" />
         <option value="$PROJECT_DIR$/LinearRegression.py" />
         <option value="$PROJECT_DIR$/ANNReg.py" />
+        <option value="$PROJECT_DIR$/DataTransform2.py" />
+        <option value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex8_2_6.py" />
       </list>
     </option>
   </component>
@@ -236,17 +235,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/02450Toolbox_Python/Scripts" />
+    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/lib/python3.6/site-packages" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="SearchEverywhereHistoryKey" value="run&#9;ACTION&#9;ActivateRunToolWindow" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lasse\Documents\GitHub\IBMHR-MachineLearningProject1" />
       <recent name="C:\Users\lbirk\PycharmProjects\IBMHR-MachineLearningProject1\Data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,7 +261,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex8_2_2">
+  <component name="RunManager" selected="Python.ex8_2_6">
+    <configuration name="ANNReg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IBMHR-MachineLearningProject1" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANNReg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="DataTransform2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,23 +292,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IBMHR-MachineLearningProject1" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataTransform2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="KNNtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBMHR-MachineLearningProject1" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNNtest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,23 +313,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="ex6_2_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBMHR-MachineLearningProject1" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex6_2_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="ex8_2_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -347,20 +330,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="ex8_2_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IBMHR-MachineLearningProject1" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex8_2_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.KNNtest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.DataTransform2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LinearRegression" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ex6_2_1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ex8_2_2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.DataTransform2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LinearRegression" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ex8_2_2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ex8_2_6" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ANNReg" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ex8_2_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LinearRegression" />
-        <item index="2" class="java.lang.String" itemvalue="Python.DataTransform2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ex6_2_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.KNNtest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ex8_2_6" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ANNReg" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LinearRegression" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ex8_2_2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.DataTransform2" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510319748866</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ForwardSelection virker så meget stadig ikke..">
+      <created>1510339155896</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1510339155896</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge branch 'master' of https://github.com/LasseOnTheHub/IBMHR-MachineLearningProject1&#10;&#10;# Conflicts:&#10;#&#9;output.xlsx">
+      <created>1510339223259</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1510339223259</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -422,7 +436,8 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3922414" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="595" y="382" width="958" height="718" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3922414" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="595" y="382" width="958" height="718" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -436,7 +451,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -447,49 +461,16 @@
     <MESSAGE value="Added file LinearRegression.py" />
     <MESSAGE value="ForwardSelection virker så meget ikke.." />
     <MESSAGE value="ForwardSelection virker så meget stadig ikke.." />
-    <option name="LAST_COMMIT_MESSAGE" value="ForwardSelection virker så meget stadig ikke.." />
+    <MESSAGE value="Merge branch 'master' of https://github.com/LasseOnTheHub/IBMHR-MachineLearningProject1&#10;&#10;# Conflicts:&#10;#&#9;output.xlsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/LasseOnTheHub/IBMHR-MachineLearningProject1&#10;&#10;# Conflicts:&#10;#&#9;output.xlsx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex6_2_1.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PreProcsessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#1#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Correlation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Boxplots.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -504,7 +485,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="71" lean-forward="false" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-          <folding />
+          <folding>
+            <marker date="1510339165433" expanded="true" signature="475:592" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -527,6 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,6 +563,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -641,6 +626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,6 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -768,9 +755,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DecisionTreeClassification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <marker date="1510339165433" expanded="true" signature="475:592" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -784,46 +773,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex6_2_1.py">
+    <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex8_2_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#18#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="81" column="54" lean-forward="false" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+        <state relative-caret-position="495">
+          <caret line="78" column="55" lean-forward="false" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scipy/stats/stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="2246" column="0" lean-forward="false" selection-start-line="2246" selection-start-column="0" selection-end-line="2246" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ANNReg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex6_2_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+          <folding>
+            <element signature="e#17#103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataTransform2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="469">
+          <caret line="52" column="10" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="52" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/IBMData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex8_2_2.py">
+    <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex8_2_6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
-            <element signature="e#18#210#0" expanded="true" />
+            <element signature="e#18#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
