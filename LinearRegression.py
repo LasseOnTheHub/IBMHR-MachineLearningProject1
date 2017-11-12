@@ -52,7 +52,7 @@ for train_index, test_index in CV:
     if len(selected_features) is 0:
         print('No features were selected, i.e. the data (X) in the fold cannot describe the outcomes (y).')
     else:
-        m = lm.LinearRegression(fit_intercept=True).fit(X_train[:, selected_features], y_train)
+        m = lm.LinearRegression(fit_intercept=True, normalize=True).fit(X_train[:, selected_features], y_train)
         Error_train_fs[k] = np.square(y_train - m.predict(X_train[:, selected_features])).sum() / y_train.shape[0]
         Error_test_fs[k] = np.square(y_test - m.predict(X_test[:, selected_features])).sum() / y_test.shape[0]
 
@@ -63,7 +63,7 @@ for train_index, test_index in CV:
         ylabel('Squared error (crossvalidation)')
 
         subplot(1, 3, 3)
-        bmplot2(attributeNames, range(1, features_record.shape[1]), -features_record[:, 1:])
+        bmplot(attributeNames, range(1, features_record.shape[1]), -features_record[:, 1:])
         clim(-1.5, 0)
         xlabel('Iteration')
 
@@ -90,7 +90,7 @@ print('- R^2 test:     {0}'.format((Error_test_nofeatures.sum() - Error_test_fs.
 
 figure(k)
 subplot(1, 3, 2)
-bmplot2(attributeNames, range(1, Features.shape[1] + 1), -Features)
+bmplot(attributeNames, range(1, Features.shape[1] + 1), -Features[:51])
 clim(-1.5, 0)
 xlabel('Crossvalidation fold')
 ylabel('Attribute')
