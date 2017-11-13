@@ -49,5 +49,4 @@ X = data.ix[:, data.columns != "MonthlyIncome"]
 attributeNames = X.columns
 X = X.values
 
-N = len(y)
-M = len(X)
+N, M = X.shape
