@@ -147,6 +147,7 @@ for train_index, test_index in CV.split(X, y):
 print('Mean-square error: {0}'.format(np.mean(errors)))
 
 figure(figsize=(6, 7));
+# legend(['y_est', 'y_test'])
 subplot(2, 1, 1);
 bar(range(0, K), errors);
 title('Mean-square errors');
