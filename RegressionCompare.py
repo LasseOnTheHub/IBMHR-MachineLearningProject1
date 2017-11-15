@@ -5,8 +5,8 @@ import numpy as np
 from scipy import stats
 
 actual = np.asarray(y_test)
-ann = y_est.reshape(-1, 1)
-forward = y_est_for
+ann = np.asarray(y_est)
+forward = np.asarray(y_est_for)
 avg_guess = np.empty(len(y_test))
 avg_guess.fill(y.mean(0))
 
@@ -17,11 +17,6 @@ avg_guess_line = avg_guess.reshape(-1, 1) - actual
 avg_error = Error_avg.reshape(-1, 1)
 Error_test_fs_for = Error_test_fs.reshape(-1, 1)
 errors_ann = errors_ann.reshape(-1, 1)
-
-len(actual_line)
-len(ann_line)
-len(forward_line)
-len(avg_guess_line)
 
 f = figure(1);
 f.hold(True)
@@ -46,7 +41,6 @@ xlabel('Observation')
 ylabel('Error')
 legend(['actual', 'ann', 'forward', 'avg_guess'])
 
-print(ann_line)
 
 mean_squarre_ann = (sum(np.square(ann_line))) / y_test.shape[0]
 mean_squarre_forward = (sum(np.square(forward_line))) / y_test.shape[0]

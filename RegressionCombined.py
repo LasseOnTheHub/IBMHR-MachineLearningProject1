@@ -54,19 +54,6 @@ for train_index, test_index in CV.split(X, y):
     internal_cross_validation = 10
     best_train_error = 1e100
 
-    # for i in range(n_train):
-    #     print('Training network {0}/{1}...'.format(i + 1, n_train))
-    #     # Create randomly initialized network with 2 layers
-    #     ann = nl.net.newff([[-3, 3]] * M, [n_hidden_units, 1], [nl.trans.TanSig(), nl.trans.PureLin()])
-    #     if i == 0:
-    #         bestnet.append(ann)
-    #     # train network
-    #     train_error = ann.train(X_train, y_train.reshape(-1, 1), goal=learning_goal, epochs=max_epochs,
-    #                             show=show_error_freq)
-    #     if train_error[-1] < best_train_error:
-    #         bestnet[k] = ann
-    #         best_train_error = train_error[-1]
-    #         error_hist_ann[range(len(train_error)), k] = train_error
 
     for i, t in enumerate(n_hidden_units):
         print('Training with hidden units {0}/{1}...'.format(i + 1, n_hidden_units[len(n_hidden_units) - 1]))
@@ -123,21 +110,6 @@ for train_index, test_index in CV.split(X, y):
         clim(-1.5, 0)
         xlabel('Iteration')
 
-
-
-    # for i, t in enumerate(n_hidden_units):
-    #     print('Training with hidden units {0}/{1}...'.format(i+1,n_hidden_units[len(n_hidden_units)-1]))
-    #     ann = nl.net.newff([[-3, 3]]*M, [t, 1], [nl.trans.TanSig(),nl.trans.PureLin()])
-    #     if i==0:
-    #         bestnet.append(ann)
-    #     # train network
-    #     train_error = ann.train(X_train, y_train.reshape(-1,1), goal=learning_goal, epochs=max_epochs, show=show_error_freq)
-    #     errors_with_hidden[i][k-1]=train_error[-1]
-    #     if train_error[-1]<best_train_error:
-    #         hidden_layers[k]=t
-    #         bestnet[k]=ann
-    #         best_train_error = train_error[-1]
-    #         error_hist_ann[range(len(train_error)),k] = train_error
     k += 1
 
 best_model = bestnet[errors_ann.argmin()]
@@ -155,24 +127,6 @@ subplot(2,1,1); plot(y_est_for); plot(y_test); title('Last CV-fold in ANN: est_y
 subplot(2,1,2); plot(y_est_for.reshape(-1,1) - y_test.reshape(-1,1)); title('Last CV-fold: prediction error (est_y-test_y)');
 
 show()
-# f = figure(); f.hold(True)
-# title('Hidden')
-# x = np.arange(2, 5, 1);
-# y = errors_with_hidden[:,0]
-# plot(x,y)
-# y = errors_with_hidden[:,1]
-# plot(x,y)
-# y = errors_with_hidden[:,2]
-# plot(x,y)
-# y = errors_with_hidden[:,3]
-# plot(x,y)
-# y = errors_with_hidden[:,4]
-# plot(x,y)
-# xlabel('Hidden layers')
-# ylabel('Train error')
-# legend(['ANN 1','ANN 2', 'ANN 3', 'ANN 4', 'ANN 5' ])
-# show()
-
 # DISPLAY RESULTS
 figure(k)
 title('Features selected by crossvalidation')
@@ -192,7 +146,6 @@ else:
     y_est_forward = m.predict(X[:, ff])
     residual = y - y_est_forward
 
-    # figure(k + 1)
     for i in range(0, len(ff)):
         title('Residual error vs. Attributes for features selected in cross-validation fold {0}'.format(f))
         figure(k+1)
@@ -203,4 +156,4 @@ else:
         i += 1
         k += 1
 
-# show()
+show()
