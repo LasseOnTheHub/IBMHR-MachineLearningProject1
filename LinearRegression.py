@@ -2,7 +2,7 @@ from DataTransform2 import *
 from matplotlib.pyplot import figure, plot, subplot, title, xlabel, ylabel, show, clim
 from sklearn import *
 import sklearn.linear_model as lm
-from toolbox_02450 import feature_selector_lr, bmplot, bmplot2
+from toolbox_02450 import feature_selector_lr, bmplot
 import numpy as np
 
 
@@ -55,6 +55,7 @@ for train_index, test_index in CV:
         m = lm.LinearRegression(fit_intercept=True, normalize=True).fit(X_train[:, selected_features], y_train)
         Error_train_fs[k] = np.square(y_train - m.predict(X_train[:, selected_features])).sum() / y_train.shape[0]
         Error_test_fs[k] = np.square(y_test - m.predict(X_test[:, selected_features])).sum() / y_test.shape[0]
+        y_est_forward = m.predict(X_test[:,selected_features])
 
         figure(k)
         subplot(1, 2, 1)

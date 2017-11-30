@@ -23,6 +23,7 @@ import numpy as np
 #M = len(attributeNames)
 #C = len(classNames)
 
+from scipy.stats import zscore
 import pandas as pd
 
 # Load our datafile
@@ -49,5 +50,6 @@ X = data.ix[:, data.columns != "MonthlyIncome"]
 attributeNames = X.columns
 X = X.values
 
-N = len(y)
-M = len(X)
+X = X / np.linalg.norm(X)
+
+N, M = X.shape
