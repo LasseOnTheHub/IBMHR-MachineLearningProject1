@@ -8,7 +8,16 @@ import os
 import time
 from sys import platform
 
-writeapriorifile.WriteAprioriFile(binarize(X),attributeNames)
+def binarize2(X,columnnames):
+    X = np.concatenate((binarize(X),1-binarize(X)),axis=1)
+
+    new_column_names = []
+    [new_column_names.append(elm) for elm in [name+' 50th-100th percentile' for name in columnnames]]
+    [new_column_names.append(elm) for elm in [name+' 0th-50th percentile' for name in columnnames]]
+
+    return X, new_column_names
+
+writeapriorifile.WriteAprioriFile(binarize2(X),attributeNames)
 
 if platform.startswith('linux'): #== "linux" or platform == "linux2":
     ext = ''  # Linux
