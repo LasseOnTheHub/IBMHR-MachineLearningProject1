@@ -9,9 +9,9 @@ from numpy import *
 
 # Load Matlab data file and extract variables of interest
 #Extract interesting continous variables.
-#X = X[:, [2, 3, 6, 10, 13, 49]]
+X = X[:, [2, 3, 6, 10, 13, 49]]
 
-X = X[:, [2, 49]]
+#X = X[:, [1, 49]]
 
 print(X)
 #Standardize the data
@@ -24,7 +24,7 @@ N, M = X.shape
 
 C = len(classNames)
 # Number of clusters
-K = 14
+K = 8
 cov_type = 'diag'
 # type of covariance, you can try out 'diag' as well
 reps = 1
@@ -51,14 +51,14 @@ for elem in covs:
 
 covs = new_covs
 # Plot results:
-figure(figsize=(14, 9))
-clusterplot(X, clusterid=cls, centroids=cds, y=y, covars=covs)
-show()
-
-## In case the number of features != 2, then a subset of features most be plotted instead.
-#figure(figsize=(14,9))
-#idx = [1,5] # feature index, choose two features to use as x and y axis in the plot
-#clusterplot(X[:,idx], clusterid=cls, centroids=cds[:,idx], y=y, covars=covs[:,idx,:][:,:,idx])
+#figure(figsize=(14, 9))
+#clusterplot(X, clusterid=cls, centroids=cds, y=y, covars=covs)
 #show()
+
+# In case the number of features != 2, then a subset of features most be plotted instead.
+figure(figsize=(14,9))
+idx = [1,5] # feature index, choose two features to use as x and y axis in the plot
+clusterplot(X[:,idx], clusterid=cls, centroids=cds[:,idx], y=y, covars=covs[:,idx,:][:,:,idx])
+show()
 
 print('Ran Exercise 11.1.1')

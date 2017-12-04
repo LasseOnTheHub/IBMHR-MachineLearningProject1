@@ -8,19 +8,19 @@ from DataTransform import *
 from numpy import *
 
 #Extract interesting continous variables.
-#X = X[:, [2, 3, 6, 10, 13, 49]]
-X = X[:, [2, 49]]
+X = X[:, [2, 3, 6, 10, 13, 49]]
+#X = X[:, [1, 49]]
 #Standardize the data
 X = (X - mean(X, axis=0)) / std(X, axis=0)
 y = np.squeeze(np.asarray(y).T)
-print(y.shape)
+print(X.shape)
 
 # Range of K's to try
-KRange = range(1, 11)
+KRange = range(1, 13)
 T = len(KRange)
 
 covar_type = 'full'  # you can try out 'diag' as well
-reps = 3  # number of fits with different initalizations, best result will be kept
+reps = 10  # number of fits with different initalizations, best result will be kept
 
 # Allocate variables
 BIC = np.zeros((T,))
