@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8308be-822e-4275-b6a3-64ded748ccad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Outlier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tools/apriori" afterPath="$PROJECT_DIR$/Tools/apriori" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.xlsx" afterPath="$PROJECT_DIR$/output.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IBMHR-MachineLearningProject1.iml" afterPath="$PROJECT_DIR$/.idea/IBMHR-MachineLearningProject1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataTransform2.py" afterPath="$PROJECT_DIR$/DataTransform2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociateMining.py" afterPath="$PROJECT_DIR$/AssociateMining.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +25,7 @@
         <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex11_4_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#18#36#0" expanded="true" />
               </folding>
@@ -31,13 +33,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Outlier.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Outlier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Outlier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="450">
+              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
                 <element signature="e#18#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssociateMining.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AssociateMining.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/DataTransform2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="394">
-              <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -59,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/PreProcsessing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -69,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/RegressionCombined.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -99,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/Boxplots.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -128,6 +142,7 @@
       <find>y_est_for</find>
       <find>outlier</find>
       <find>print</find>
+      <find>bina</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,6 +179,7 @@
         <option value="$PROJECT_DIR$/DataTransform2.py" />
         <option value="$PROJECT_DIR$/Outlier.py" />
         <option value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex11_4_1.py" />
+        <option value="$PROJECT_DIR$/AssociateMining.py" />
       </list>
     </option>
   </component>
@@ -197,27 +213,6 @@
               <item name="IBMHR-MachineLearningProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="IBMHR-MachineLearningProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="IBMHR-MachineLearningProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="IBMHR-MachineLearningProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6.2 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="IBMHR-MachineLearningProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6.2 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IBMHR-MachineLearningProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6.2 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -228,15 +223,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Data" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="console&#9;ACTION&#9;com.jetbrains.python.console.RunPythonConsoleAction&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;run&#9;ACTION&#9;ActivateRunToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;console&#9;ACTION&#9;com.jetbrains.python.console.RunPythonConsoleAction&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;run&#9;ACTION&#9;ActivateRunToolWindow" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lasse\Documents\GitHub\IBMHR-MachineLearningProject1" />
       <recent name="C:\Users\lbirk\PycharmProjects\IBMHR-MachineLearningProject1\Data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,6 +247,23 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Outlier">
+    <configuration name="AssociateMining" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IBMHR-MachineLearningProject1" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AssociateMining.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="DataTransform2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,37 +332,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="run_apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IBMHR-MachineLearningProject1" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/run_apriori.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.run_apriori" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ex11_3_2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ex11_4_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Outlier" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DataTransform2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ex11_3_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ex11_4_1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Outlier" />
+      <item index="3" class="java.lang.String" itemvalue="Python.DataTransform2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.AssociateMining" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Outlier" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ex11_4_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.DataTransform2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ex11_3_2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.run_apriori" />
+        <item index="1" class="java.lang.String" itemvalue="Python.AssociateMining" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ex11_4_1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DataTransform2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ex11_3_2" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510761129949</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Problemer med behandling af data til outliers">
+      <created>1512080175999</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512080175999</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -419,11 +421,11 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.50208336" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57974136" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="595" y="382" width="958" height="718" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36853448" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="595" y="382" width="958" height="718" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.49791667" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5301724" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -446,7 +448,8 @@
     <MESSAGE value="ForwardSelection virker så meget stadig ikke.." />
     <MESSAGE value="Lorte ANN &lt;3" />
     <MESSAGE value="Alt done ;*" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alt done ;*" />
+    <MESSAGE value="Problemer med behandling af data til outliers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problemer med behandling af data til outliers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -472,13 +475,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PreProcsessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Correlation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -743,7 +739,7 @@
     <entry file="file://$PROJECT_DIR$/Boxplots.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -761,7 +757,7 @@
     <entry file="file://$PROJECT_DIR$/PreProcsessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -769,7 +765,7 @@
     <entry file="file://$PROJECT_DIR$/RegressionCombined.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -777,7 +773,7 @@
     <entry file="file://$PROJECT_DIR$/DataTransform2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
-          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -787,7 +783,7 @@
     <entry file="file://$USER_HOME$/Dokumenter/Skole/Semester_5/02450_machine/02450Toolbox_Python/Scripts/ex11_4_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#18#36#0" expanded="true" />
           </folding>
@@ -796,10 +792,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Outlier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="450">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#18#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssociateMining.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
