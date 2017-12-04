@@ -17,7 +17,7 @@ classDict = dict(zip(classNames, range(2)))
 
 # Extract vector y, convert to NumPy matrix and transpose
 y = np.mat([classDict[value] for value in classLabels]).T
-
+print(y)
 # Preallocate memory, then extract excel data to matrix X
 X = np.mat(np.empty((1470, 50), dtype=int))
 for i, col_id in enumerate(range(1, 51)):

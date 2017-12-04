@@ -24,7 +24,7 @@ else:
 
 filename = 'AprioriFile.txt'.format(dir_sep)
 minSup = 45
-minConf = 75
+minConf = 60
 maxRule = 4
 
 # Run Apriori Algorithm
