@@ -8,14 +8,15 @@ from DataTransform import *
 from numpy import *
 
 #Extract interesting continous variables.
-X = X[:, [2, 3, 6, 10, 13, 49]]
+#X = X[:, [2, 3, 6, 10, 13, 49]]
+X = X[:, [2, 49]]
 #Standardize the data
 X = (X - mean(X, axis=0)) / std(X, axis=0)
-y = np.squeeze(np.asarray(y))
-print(X)
+y = np.squeeze(np.asarray(y).T)
+print(y.shape)
 
 # Range of K's to try
-KRange = range(1, 15)
+KRange = range(1, 11)
 T = len(KRange)
 
 covar_type = 'full'  # you can try out 'diag' as well
@@ -52,6 +53,10 @@ for t, K in enumerate(KRange):
         CVE[t] += -gmm.score_samples(X_test).sum()
 
 # Plot results
+
+NLOGL = -gmm.score(X_test).sum()
+
+print(NLOGL)
 
 figure(1);
 plot(KRange, BIC, '-*b')

@@ -9,19 +9,22 @@ from numpy import *
 
 # Load Matlab data file and extract variables of interest
 #Extract interesting continous variables.
-X = X[:, [2, 3, 6, 10, 13, 49]]
-X = X[:, [3, 5]]
+#X = X[:, [2, 3, 6, 10, 13, 49]]
 
+X = X[:, [2, 49]]
 
+print(X)
 #Standardize the data
 X = (X - mean(X, axis=0)) / std(X, axis=0)
 y = np.squeeze(np.asarray(y))
 
-print(y.shape)
-print(X.shape)
+N, M = X.shape
 
+
+
+C = len(classNames)
 # Number of clusters
-K = 9
+K = 14
 cov_type = 'diag'
 # type of covariance, you can try out 'diag' as well
 reps = 1
@@ -35,11 +38,11 @@ cds = gmm.means_
 covs = gmm.covariances_
 # extract cluster shapes (covariances of gaussians)
 if cov_type == 'diag':
-    new_covs = np.zeros([K, 2, 2])
+    new_covs = np.zeros([K, M, M])
 
 count = 0
 for elem in covs:
-    temp_m = np.zeros([2, 2])
+    temp_m = np.zeros([M, M])
     for i in range(len(elem)):
         temp_m[i][i] = elem[i]
 
